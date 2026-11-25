@@ -27,9 +27,7 @@ import java.util.List;
 public class BoardController {
 	private final BoardService boardService;
 
-   /**
-	* 전체 게시물 조회
-	* */
+ 	//전체 게시물 조회
 	@GetMapping("/boards")
 	public ResponseEntity<?> findAll(){
 		/*Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
