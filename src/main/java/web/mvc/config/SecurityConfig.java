@@ -56,7 +56,7 @@ public class SecurityConfig {
                         CorsConfiguration configuration = new CorsConfiguration();
                         //configuration.setAllowedOrigins(Collections.singletonList("http://localhost:5173"));
                         //configuration.setAllowedOrigins(Arrays.asList("http://localhost:5173", "http://localhost:4173"));
-                        configuration.setAllowedOrigins(Arrays.asList("http://43.201.53.254", "http://43.201.53.254:80"));
+                        //configuration.setAllowedOrigins(Arrays.asList("http://43.201.53.254", "http://43.201.53.254:80"));
                         configuration.setAllowedOrigins(Arrays.asList("http://euncicdtest.p-e.kr", "https://euncicdtest.p-e.kr"));
                         configuration.setAllowedMethods(Collections.singletonList("*"));
                         configuration.setAllowCredentials(true);
